@@ -59,7 +59,7 @@ export default function About() {
             <FadeIn delay={0.3}>
               <p className="text-base leading-relaxed" style={{ color: 'var(--muted)' }}>
                 This summer I&apos;m joining{' '}
-                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>AltaML as a Software Engineer Intern</span> to go deeper on applied AI.
+                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>AltaML as a Software Engineer Intern </span> to go deeper on applied AI.
                 On the side, I&apos;m building{' '}
                 <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>FinSight Auditor</span> —
                 because I got curious about what happens when you point an LLM at a balance sheet and actually make it useful.
