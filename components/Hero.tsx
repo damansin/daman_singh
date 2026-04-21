@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, ArrowDown } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './SocialIcons';
 import Image from 'next/image';
 
@@ -137,22 +137,6 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-8 flex flex-col items-center gap-1"
-        style={{ color: 'var(--muted)' }}
-      >
-        <span className="text-xs tracking-widest uppercase">Scroll</span>
-        <motion.div
-          animate={{ y: [0, 6, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5 }}
-        >
-          <ArrowDown size={14} />
-        </motion.div>
-      </motion.div>
     </section>
   );
 }
