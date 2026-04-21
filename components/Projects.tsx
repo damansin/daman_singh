@@ -25,21 +25,33 @@ const projects = [
     title: 'FinSight Auditor',
     status: 'in-progress',
     description:
-      'An AI-powered financial audit platform that processes GL exports, payroll, and bank statements to surface anomalies and compliance risks. Combines LLM reasoning, rule-based checks, and statistical outlier analysis to generate high-precision risk scores.',
+      'AI-powered financial audit platform that ingests GL exports, payroll, and bank statements to surface anomalies and compliance risks — combining LLM reasoning, rule-based checks, and statistical outlier analysis into a single risk score.',
     detail:
-      'Built end-to-end data pipelines for ingestion, S3 storage, cleaning, and vector embedding generation — enabling fast semantic search via pgvector.',
+      'Built end-to-end pipelines covering ingestion, S3 storage, data cleaning, and vector embedding generation. Semantic search via pgvector cuts lookup time across large transaction datasets significantly.',
     tags: ['Python', 'FastAPI', 'PostgreSQL', 'pgvector', 'LangChain', 'Next.js', 'AWS', 'OpenAI'],
     github: 'https://github.com/damansin',
     demo: null,
     highlight: true,
   },
   {
+    title: 'NEXUS',
+    status: 'complete',
+    description:
+      'Distributed, federated social platform enabling real-time messaging and content exchange across 5+ independently hosted nodes — designed from the ground up for decentralization.',
+    detail:
+      'Achieved 99% message delivery reliability under simulated network partitions via resilient routing and inbox delivery logic. Built a modular React frontend with structured state management, improving session synchronization accuracy by 40% across devices.',
+    tags: ['Python', 'Django', 'Docker', 'React', 'Distributed Systems', 'Federation'],
+    github: 'https://github.com/damansin',
+    demo: null,
+    highlight: false,
+  },
+  {
     title: 'LP Prospect Engine',
     status: 'complete',
     description:
-      'A data-driven pipeline for identifying and qualifying limited partner prospects. Automates sourcing, scoring, and enrichment of investor profiles for targeted outreach.',
+      'Automated pipeline for sourcing, scoring, and enriching limited partner prospect profiles — cutting manual investor research time by eliminating unstructured data bottlenecks.',
     detail:
-      'Built intelligent filtering and ranking logic to surface high-signal prospects from large datasets, reducing manual research time significantly.',
+      'Built intelligent filtering and ranking logic to surface high-signal prospects from large unstructured datasets, enabling targeted outreach at scale.',
     tags: ['Python', 'Data Pipelines', 'NLP', 'Automation'],
     github: 'https://github.com/damansin',
     demo: null,
@@ -49,23 +61,11 @@ const projects = [
     title: 'Athena',
     status: 'complete',
     description:
-      'An Android event organizer app featuring attendee selection via a lottery system. Built with a full Firebase backend and comprehensive unit-test coverage for reliability.',
+      'Android event organizer app with attendee selection via a lottery system, serving multi-organizer workflows with real-time Firestore sync across all participants.',
     detail:
-      'Forked from CMPUT301F24 project. Designed for scalable event management with real-time Firestore sync and Firestorage for media handling.',
+      'Full Firebase backend with Firestorage for media handling and a comprehensive JUnit test suite ensuring reliability across edge cases in the lottery logic.',
     tags: ['Java', 'Android', 'Firestore', 'Firebase', 'JUnit'],
     github: 'https://github.com/damansin/Athena',
-    demo: null,
-    highlight: false,
-  },
-  {
-    title: 'Movie Recommender System',
-    status: 'complete',
-    description:
-      'A content-based and collaborative filtering recommender system that suggests movies based on user preferences and viewing history.',
-    detail:
-      'Implemented TF-IDF vectorization for content similarity and matrix factorization for collaborative filtering, served via a lightweight Python API.',
-    tags: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'ML', 'Recommender Systems'],
-    github: 'https://github.com/damansin',
     demo: null,
     highlight: false,
   },

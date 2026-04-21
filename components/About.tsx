@@ -44,28 +44,25 @@ export default function About() {
           <div className="space-y-5">
             <FadeIn delay={0.1}>
               <p className="text-base leading-relaxed" style={{ color: 'var(--muted)' }}>
-                I&apos;m a Computing Science student at the University of Alberta with a genuine obsession for
-                systems that handle real-world scale — whether that&apos;s distributed data pipelines ingesting
-                millions of events, AI agents reasoning over structured data, or cloud infrastructure that
-                stays up when it matters most.
+                I&apos;m a 4th year Computing Science student at the University of Alberta.
+                I like building things that work at scale and hold up in production.
               </p>
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-base leading-relaxed" style={{ color: 'var(--muted)' }}>
-                Over the past few years I&apos;ve moved between fintech, enterprise SaaS, and investment banking —
-                shipping real features at{' '}
-                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>TD Securities</span>,{' '}
-                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>OMERS</span>, and{' '}
-                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>Credwise</span>.
-                Each role pushed me deeper into the stack: Spark pipelines, OAuth flows, CI/CD, and beyond.
+                That obsession has pulled me toward distributed systems, data engineering, cloud infrastructure, and applied ML —
+                the intersection where the hardest problems live. I want to build things that move millions
+                of events reliably, models that reason over messy real-world data, and infrastructure
+                that scales without someone manually babysitting it.
               </p>
             </FadeIn>
             <FadeIn delay={0.3}>
               <p className="text-base leading-relaxed" style={{ color: 'var(--muted)' }}>
-                This summer I&apos;m joining <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>AltaML</span>{' '}
-                as a Software Engineer Intern — doubling down on applied AI and ML systems.
-                Outside of work, I&apos;m building <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>FinSight Auditor</span>,
-                an AI-powered financial audit platform that blends LLMs, vector search, and statistical anomaly detection.
+                This summer I&apos;m joining{' '}
+                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>AltaML</span> to go deeper on applied AI.
+                On the side, I&apos;m building{' '}
+                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>FinSight Auditor</span> —
+                because I got curious about what happens when you point an LLM at a balance sheet and actually make it useful.
               </p>
             </FadeIn>
           </div>

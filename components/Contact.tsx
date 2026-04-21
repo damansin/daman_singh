@@ -53,7 +53,7 @@ export default function Contact() {
             Let&apos;s build something
           </h2>
           <p className="text-base leading-relaxed max-w-xl mx-auto mb-12" style={{ color: 'var(--muted)' }}>
-            I&apos;m actively looking for SWE roles in ML, AI, distributed systems, and data engineering.
+            I&apos;m actively looking for SWE intern roles in ML, AI, distributed systems, and data engineering.
             Whether you have an opportunity, a question, or just want to talk tech — my inbox is open.
           </p>
         </FadeIn>

@@ -1,3 +1,4 @@
+
 'use client';
 
 import { motion, useInView } from 'framer-motion';
@@ -28,7 +29,7 @@ const jobs = [
     bullets: [
       'Incoming — building applied ML and AI systems at one of Canada\'s leading AI companies.',
     ],
-    tags: ['ML', 'AI', 'Incoming'],
+    tags: ['ML', 'AI', 'Agents', 'Incoming'],
   },
   {
     company: 'TD Securities',
@@ -42,7 +43,7 @@ const jobs = [
       'Transitioned streaming workloads from Spark Structured Streaming to Declarative Pipelines, reducing pipeline complexity by 30% and improving production reliability.',
       'Delivered 20+ deployments across multi-environment releases via XLR pipelines and configured inbound/outbound networking rules across Databricks, Kafka, and AKS.',
     ],
-    tags: ['Databricks', 'Spark', 'Kafka', 'Delta Lake', 'Python', 'AKS'],
+    tags: ['Databricks', 'Spark', 'Kafka', 'Delta Lake', 'Python', 'AKS', 'Druid', 'ADLS'],
   },
   {
     company: 'OMERS',
