@@ -85,7 +85,7 @@ export default function Hero() {
           Software Engineer at UAlberta (CS) · AWS Certified · Previously at{' '}
           <strong style={{ color: 'var(--foreground)' }}>TD Securities</strong>,{' '}
           <strong style={{ color: 'var(--foreground)' }}>OMERS</strong> &amp;{' '}
-          <strong style={{ color: 'var(--foreground)' }}>Credwise</strong>. Incoming at{' '}
+          <strong style={{ color: 'var(--foreground)' }}>Credwise</strong>. Currently building AI agents at{' '}
           <strong style={{ color: 'var(--foreground)' }}>AltaML</strong>.
         </motion.p>
 

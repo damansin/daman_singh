@@ -27,9 +27,9 @@ const jobs = [
     location: 'Toronto, ON',
     current: true,
     bullets: [
-      'Incoming — building applied ML and AI systems at one of Canada\'s leading AI companies.',
+      'Building AI agents and applied ML solutions at one of Canada\'s leading AI companies.',
     ],
-    tags: ['ML', 'AI', 'Agents', 'Incoming'],
+    tags: ['ML', 'AI', 'Agents', 'Python'],
   },
   {
     company: 'TD Securities',
@@ -115,7 +115,7 @@ export default function Experience() {
                             className="text-xs px-2 py-0.5 rounded-full font-medium"
                             style={{ backgroundColor: 'var(--accent-subtle)', color: 'var(--accent)' }}
                           >
-                            Upcoming
+                            Current
                           </span>
                         )}
                       </div>
