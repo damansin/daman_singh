@@ -22,7 +22,7 @@ function FadeIn({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
 
 const stats = [
   { label: 'Years of Experience', value: '3+' },
-  { label: 'Internships', value: '4' },
+  { label: 'Internships', value: '3' },
   { label: 'AWS Certified', value: '✓' },
   { label: 'Dean\'s Honor Roll', value: '✓' },
 ];
@@ -78,7 +78,7 @@ export default function About() {
                   <GraduationCap size={18} style={{ color: 'var(--accent)' }} />
                   <div>
                     <p className="text-sm font-medium">University of Alberta</p>
-                    <p className="text-xs" style={{ color: 'var(--muted)' }}>BSc Computing Science · Jan 2023 – May 2027</p>
+                    <p className="text-xs" style={{ color: 'var(--muted)' }}>BSc Computing Science · Jan 2023 – Dec 2027</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3" style={{ color: 'var(--foreground)' }}>

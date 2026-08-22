@@ -84,9 +84,8 @@ export default function Hero() {
         >
           Computing Science student at UAlberta · AWS Certified · Previously at{' '}
           <strong style={{ color: 'var(--foreground)' }}>AltaML</strong>,{' '}
-          <strong style={{ color: 'var(--foreground)' }}>TD Securities</strong>,{' '}
-          <strong style={{ color: 'var(--foreground)' }}>OMERS</strong> &amp;{' '}
-          <strong style={{ color: 'var(--foreground)' }}>Credwise</strong>. Currently a Research Assistant at{' '}
+          <strong style={{ color: 'var(--foreground)' }}>TD Securities</strong> &amp;{' '}
+          <strong style={{ color: 'var(--foreground)' }}>OMERS</strong>. Currently a Research Assistant at{' '}
           <strong style={{ color: 'var(--foreground)' }}>UAlberta</strong>.
         </motion.p>
 
