@@ -21,15 +21,29 @@ function FadeIn({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
 
 const jobs = [
   {
-    company: 'AltaML',
-    role: 'Software Engineer Intern',
-    period: 'Summer 2026',
-    location: 'Toronto, ON',
+    company: 'University of Alberta',
+    role: 'Research Assistant',
+    period: 'Sept 2026 – Present',
+    location: 'Edmonton, AB',
     current: true,
     bullets: [
-      'Building AI agents and applied ML solutions at one of Canada\'s leading AI companies.',
+      'Developing drift-robust anomaly detection for enterprise security logs using GNNs on provenance graphs, with game-theoretic adversarial modeling and MITRE ATT&CK-fine-tuned LLMs.',
     ],
-    tags: ['ML', 'AI', 'Agents', 'Python'],
+    tags: ['GNNs', 'LLMs', 'Security', 'Research'],
+  },
+  {
+    company: 'AltaML',
+    role: 'Software Engineer Intern',
+    period: 'May 2026 – Aug 2026',
+    location: 'Toronto, ON',
+    current: false,
+    bullets: [
+      'Built organization-level multi-tenancy for a production Azure OpenAI RAG assistant serving government clients, isolating SQL, blob storage, and Azure AI Search indexes per tenant with cross-tenant IDOR protection to cut client provisioning from days to under an hour and per-client infrastructure cost by 30%.',
+      'Shipped GraphRAG as a third production retrieval mode in a LangGraph workflow: schema-guided LLM entity/relation extraction over a 268-document policy corpus into a Neo4j graph of 22K entities, 37K relations and 6.1K chunks with chunk-level provenance.',
+      'Ran LLM-as-judge evals in Arize (correctness, faithfulness, retrieval relevance) comparing GraphRAG vs. vector vs. agentic on a 194-question set; a systematic tuning sweep with semantic reranker raised answer-correctness 58.8% to 75.3%.',
+      'Diagnosed p95 latency of 73.5s from 4,889 answer traces: isolated a post-RAG LLM judge discarding completed answers and re-running agentic search on 57% of queries; cut the agent\'s iteration cap 50 to 20 via a 6-config eval sweep, dropping agentic latency 28%.',
+    ],
+    tags: ['LangGraph', 'RAG', 'Azure OpenAI', 'Neo4j', 'Arize', 'Python'],
   },
   {
     company: 'TD Securities',
@@ -38,10 +52,9 @@ const jobs = [
     location: 'Toronto, ON',
     current: false,
     bullets: [
-      'Migrated analytics pipelines from Apache Druid to Databricks Delta Lake across 50+ Kafka topics, cutting extraction time by 70% via distributed Spark workers replacing sequential ZIP processing.',
-      'Engineered ADLS-integrated Python extraction pipelines with parameterized Databricks Jobs, enabling parallel ingestion that scales horizontally as new Kafka topics and data sources are added.',
-      'Transitioned streaming workloads from Spark Structured Streaming to Declarative Pipelines, reducing pipeline complexity by 30% and improving production reliability.',
-      'Delivered 20+ deployments across multi-environment releases via XLR pipelines and configured inbound/outbound networking rules across Databricks, Kafka, and AKS.',
+      'Built real-time streaming infrastructure across 50+ Kafka topics: migrated workloads from Spark Structured Streaming to Spark Declarative Pipelines, eliminating manual state and partition management.',
+      'Spearheaded migration of analytics pipelines from Apache Druid to Databricks Delta Lake, cutting segment extraction time by 70% by replacing sequential ZIP processing with distributed Spark jobs.',
+      'Engineered parameterized, ADLS-integrated Databricks Jobs for parallel ingestion across high-volume tables; shipped 20+ multi-environment releases via XLR and configured networking across Databricks, Kafka, and AKS.',
     ],
     tags: ['Databricks', 'Spark', 'Kafka', 'Delta Lake', 'Python', 'AKS', 'Druid', 'ADLS'],
   },
@@ -52,9 +65,8 @@ const jobs = [
     location: 'Toronto, ON',
     current: false,
     bullets: [
-      'Automated 30+ enterprise workflows using Business Rules, UI Policies, and JavaScript, reducing manual operations and increasing system throughput.',
-      'Migrated 1,000+ monthly alerts from Basic Auth to OAuth 2.0, eliminating credential exposure and securing REST API integrations.',
-      'Improved request fulfillment time by 30% by engineering 5+ dynamic catalog forms with REST APIs and adaptive form logic.',
+      'Strengthened platform security by migrating 1,000+ monthly alert integrations from Basic Auth to OAuth 2.0, eliminating credential exposure across REST API integrations.',
+      'Automated 20+ enterprise workflows on ServiceNow (Business Rules, UI Policies, JavaScript) and built 5+ dynamic catalog forms with REST integrations and adaptive logic, improving request fulfillment time by 30%.',
       'Built Azure Forms and Microsoft Fabric integrations to streamline data intake, validation, and transformation workflows.',
     ],
     tags: ['ServiceNow', 'OAuth 2.0', 'REST APIs', 'Azure', 'Microsoft Fabric', 'JavaScript'],

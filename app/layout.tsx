@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Daman Singh Batra — Software Engineer",
   description:
-    "Software Engineer specializing in ML, AI, distributed systems, and data engineering. Building AI agents at AltaML, previously TD Securities, OMERS, Credwise.",
+    "Software Engineer specializing in ML, AI, distributed systems, and data engineering. Research Assistant at UAlberta, previously AltaML, TD Securities, OMERS, Credwise.",
   keywords: [
     "Daman Singh Batra",
     "Software Engineer",

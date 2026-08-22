@@ -22,13 +22,13 @@ function FadeIn({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
 
 const projects = [
   {
-    title: 'FinSight Auditor',
+    title: 'Tearsheet',
     status: 'in-progress',
     description:
-      'AI-powered financial audit platform that ingests GL exports, payroll, and bank statements to surface anomalies and compliance risks — combining LLM reasoning, rule-based checks, and statistical outlier analysis into a single risk score.',
+      'Multi-agent due-diligence system on LangGraph: a stateful, cyclic graph orchestrating retriever, analyst, verifier, and synthesis agents with conditional routing and automated re-retrieval when claims fail validation.',
     detail:
-      'Built end-to-end pipelines covering ingestion, S3 storage, data cleaning, and vector embedding generation. Semantic search via pgvector cuts lookup time across large transaction datasets significantly.',
-    tags: ['Python', 'FastAPI', 'PostgreSQL', 'pgvector', 'LangChain', 'Next.js', 'AWS', 'OpenAI'],
+      'Implements RAG over SEC filings, earnings data, and news with pgvector semantic search, grounding every generated claim against source documents for citation-level traceability. Tracing and evaluating agent runs with LangSmith.',
+    tags: ['Python', 'LangGraph', 'LangSmith', 'RAG', 'Claude API', 'pgvector', 'FastAPI'],
     github: 'https://github.com/damansin',
     demo: null,
     highlight: true,

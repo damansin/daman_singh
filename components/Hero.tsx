@@ -82,11 +82,12 @@ export default function Hero() {
           className="text-lg max-w-xl leading-relaxed"
           style={{ color: 'var(--muted)' }}
         >
-          Software Engineer at UAlberta (CS) · AWS Certified · Previously at{' '}
+          Computing Science student at UAlberta · AWS Certified · Previously at{' '}
+          <strong style={{ color: 'var(--foreground)' }}>AltaML</strong>,{' '}
           <strong style={{ color: 'var(--foreground)' }}>TD Securities</strong>,{' '}
           <strong style={{ color: 'var(--foreground)' }}>OMERS</strong> &amp;{' '}
-          <strong style={{ color: 'var(--foreground)' }}>Credwise</strong>. Currently building AI agents at{' '}
-          <strong style={{ color: 'var(--foreground)' }}>AltaML</strong>.
+          <strong style={{ color: 'var(--foreground)' }}>Credwise</strong>. Currently a Research Assistant at{' '}
+          <strong style={{ color: 'var(--foreground)' }}>UAlberta</strong>.
         </motion.p>
 
         {/* CTA Buttons */}

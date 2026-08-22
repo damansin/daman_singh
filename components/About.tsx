@@ -58,11 +58,12 @@ export default function About() {
             </FadeIn>
             <FadeIn delay={0.3}>
               <p className="text-base leading-relaxed" style={{ color: 'var(--muted)' }}>
-                I&apos;m currently at{' '}
-                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>AltaML as a Software Engineer Intern</span>, building AI agents and applied ML solutions.
+                I&apos;m currently a{' '}
+                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>Research Assistant at the University of Alberta</span>, working on drift-robust anomaly detection for enterprise security logs. Previously, I was at{' '}
+                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>AltaML</span>, shipping production RAG systems.
                 On the side, I&apos;m building{' '}
-                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>FinSight Auditor</span> —
-                because I got curious about what happens when you point an LLM at a balance sheet and actually make it useful.
+                <span style={{ color: 'var(--foreground)', fontWeight: 500 }}>Tearsheet</span> —
+                a multi-agent due-diligence system that grounds every claim it generates against SEC filings and earnings data.
               </p>
             </FadeIn>
           </div>
